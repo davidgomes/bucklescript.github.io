@@ -5,7 +5,7 @@ title: Overview
 
 "Interop" is short for "interoperability". In the context of BuckleScript, this means communicating with JavaScript. One of BuckleScript's **major** goals is to interop as smoothly as possible with JS across the stack.
 
-In a real-life, decently-sized codebase, one cannot simply convert from one technology to another within a few days, weeks, or sometimes months or years. For large codebases like Bloomberg's or Facebook's, sometimes the interop stays seemingly forever. If the interop isn't carefully designed enough to wiggle the language into a codebase, the conversion cost could dwarf the initial value of the language and become a deal breaker.
+In a real-life, decently-sized codebase, one cannot simply convert from one technology to another within a few days, weeks, or sometimes months or years. For large codebases, sometimes the interop stays seemingly forever. If the interop isn't carefully designed enough to wiggle the language into a codebase, the conversion cost could dwarf the initial value of the language and become a deal breaker.
 
 A well-crafted interop system that is simple, performant, local and non-prescriptive allows devs to use familiar concepts while trying out the technology, to be confident enough of the (lack of) unknowns to recommend the solution to managers, and to be productive while converting the team's project.
 
