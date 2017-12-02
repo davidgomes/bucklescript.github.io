@@ -9,7 +9,7 @@ BuckleScript isn't a new language. It simply takes [OCaml](http://ocaml.org), **
 
 Thanks to its great interoperability with JS, BuckleScript can be seen as a "gradually" typed language, where you get to incrementally adopt it in your codebase file-by-file, while keeping the full benefits of a 100% sound and reliable type system, plus extra language features.
 
-BuckleScript has build-in support for [Reason](https://reasonml.github.io/), a partner project of ours, to provide an even more familiar experience to existing JS developers.
+BuckleScript has built-in support for [Reason](https://reasonml.github.io/), a partner project of ours, to provide an even more familiar experience to existing JS developers.
 
 ## Why Compile to JavaScript?
 
