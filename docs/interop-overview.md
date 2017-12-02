@@ -39,7 +39,7 @@ var messages = ["hello", "world", "how", "are", "you"]
 
 There is zero mental and performance overhead while using such value. Naturally, the value on the BuckleScript side is automatically typed to be an array of strings.
 
-This behavior doesn't hold for _all_ the BS data structures; the dedicated sections for each offer more info.
+This behavior doesn't hold for complex data structures; the dedicated sections for each offer more info.
 
 ### Functions
 
@@ -51,6 +51,7 @@ Every `let` declarations in a BS file is exported by default and usable from JS.
 
 The generated output is clean enough that it could be passed as (slightly badly indented) hand-written JavaScript code. Try a few snippets in our playground!
 
+<!-- TODO: add default export explaination >
 <!-- TODO: playground link -->
 
 ### Build system
