@@ -186,10 +186,10 @@ If you have the irresistible urge of saying "if only this JS function argument w
 ```js
 function padLeft(string, padding) {
   if (typeof padding === "number") {
-    return Array(padding + 1).join(" ") + value;
+    return Array(padding + 1).join(" ") + string;
   }
   if (typeof padding === "string") {
-    return padding + value;
+    return padding + string;
   }
   throw new Error(`Expected string or number, got '${padding}'.`);
 }
